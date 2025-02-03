@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:clipToPadding="false"
+    android:layout_gravity="center">
+
+    <!-- Content Section -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World"
+            android:textColor="@color/heading_main"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:ignore="UseCompoundDrawables" />
+
+        <!-- Date Text -->
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jan 28, 2025"
+            android:textColor="@color/light_grey"
+            android:textSize="14sp"
+            android:ellipsize="end"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/tick"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:contentDescription="@string/tick"
+        android:src="@drawable/tick"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

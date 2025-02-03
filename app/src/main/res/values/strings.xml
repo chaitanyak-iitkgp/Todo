@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Todo</string>
+    <string name="moto">get your task done !"</string>
+    <string name="todo">ToDo</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="todo_app">ToDo</string>
+    <string name="login">Login</string>
+    <string name="tick">tick_desc\n</string>
 </resources>
